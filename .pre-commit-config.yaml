@@ -18,3 +18,4 @@ repos:
             -   flake8-bugbear
             -   flake8-eradicate
             -   pep8-naming
+            -   flake8-black
