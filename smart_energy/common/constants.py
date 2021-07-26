@@ -1,8 +1,6 @@
 from datetime import timedelta
 from enum import Enum
 
-import pytz
-
 
 class ApplicationConstants(object):
     OCTOPUS_SUPPORT_EMAIL = 'agile@octopus.energy'
@@ -345,10 +343,6 @@ class OctopusTariffRatesInterval:
 class TimeInSeconds:
     MINUTE = 60
     FIVE_MINUTE = 300
-
-
-class TimeZone:
-    LONDON = pytz.timezone('Europe/London')
 
 
 class Octopus:
